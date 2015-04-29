@@ -4,7 +4,7 @@ using UnityEngine;
 namespace ExampleNamespace
 {
 
-    public class ExampleMod: IUserMod
+    public class ExampleModMain: IUserMod
     {
 
         public string Name 
