@@ -34,7 +34,9 @@ namespace ExampleNamespace
 
     public void OnUpdate()
     {
-      
+      if(Input.GetMouseButtonDown(0)){
+        Debug.Log("Mouse Button Pressed");
+      }
     }
 
     public string DumpAllGameObjects()

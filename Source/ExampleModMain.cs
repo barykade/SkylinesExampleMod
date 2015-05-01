@@ -15,7 +15,6 @@ namespace ExampleNamespace
         public string Description 
         {
             get { return "This is an example mod"; }
-			
         }
     }
 }
